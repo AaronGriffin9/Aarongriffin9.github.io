@@ -7,3 +7,5 @@ bar.addEventListener("click", function(){
   menu.classList.toggle("transform");
 }, 250);
 });
+
+console.log("hey");
