@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,300,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/app.css">
+    <link rel="stylesheet" href="CSS/stylesheet.css">
+    <title>Aurora Grove</title>
+</head>
+<body>
+  <nav class = "nav navbar navbar-dark navbar-expand-md">
+    <a href = "#" class = "navbar-brand">
+      <h3 class = "mb-0"> Aurora Grove</h3>
+    </a>
+    <button class = "navbar-toggler" data-toggle = "collapse" data-target = "#main-navbar">
+      <span class = "navbar-toggler-icon"> </span>
+    </button>
+    <div class = "collapse navbar-collapse" id = "main-navbar">
+      <ul class = "navbar-nav ml-auto">
+        <li class = "nav-item">
+          <a href = "#showcase" class = "nav-link"> Home </a>
+        </li>
+        <li class = "nav-item">
+          <a href = "#icons" class = "nav-link"> About </a>
+        </li>
+        <li class = "nav-item">
+          <a href = "#explore" class = "nav-link"> Explore </a>
+        </li>
+        <li class = "nav-item">
+          <a href = "#newsletter" class = "nav-link"> Contact </a>
+        </li>
+        <li class = "nav-item">
+          <a href = "#" class = "nav-link" data-toggle = "modal" data-target = "#bookingModel"> Book </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <section id = "showcase" class = "d-flex justiify-content-center align-items-center">
+    <div id = "overlay"> </div>
+    <div class = "header container text-white text-center" id = "header">
+      <h3 class = "display-5 mb-0"> MODERN CAMPING </h3>
+      <h1 class = "display-1"> Aurora Grove </h1>
+      <p class = "lead d-none d-md-block">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+        ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+        nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+        anim id est laborum. </p>
+        <button class = "btn btn-lg btn-primary px-5" id = "book" data-toggle = "modal" data-target = "#bookingModel"> BOOK NOW </button>
+    </div>
+  </section>
+
+  <section id = "icons">
+    <div class = "container text-center mt-5">
+      <h2> YOU SHOW UP, WE PITCH THE TENT </h2>
+      <div class = "row">
+        <div class = "col-md-4 p-3">
+          <img src = "img/icons/tent.png" class = "img-fluid d-none d-md-inline" alt = "">
+          <h3> Amenities You Want </h3>
+          <p class = "lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+            ex ea commodo consequat. </p>
+        </div>
+        <div class = "col-md-4 p-3">
+          <img src = "img/icons/campfire.png" class = "img-fluid d-none d-md-inline" alt = "">
+          <h3> The Food you Crave </h3>
+          <p class = "lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+            ex ea commodo consequat. </p>
+        </div>
+        <div class = "col-md-4 p-3">
+          <img src = "img/icons/nature.png" class = "img-fluid d-none d-md-inline" alt = "">
+          <h3> The Nature You Need </h3>
+          <p class = "lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+            ex ea commodo consequat. </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id = "explore">
+    <div class = "container text-center mt-2 p-3">
+      <h3> WE'VE CREATED A CAMPING EXPERIENCE THAT'S TURN-KEY AND HASTLE FREE </h3>
+      <div class="row m-2">
+          <div class="col-md-6 p-3">
+              <div class="card">
+                  <img src="img/winter.png" alt="" class="card-img-top">
+                  <div class="card-body">
+                      <h2 class="card-title text-primary">EXPERIENCE</h2>
+                      <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur, officiis.</p>
+                      <a href="" class="btn btn-lg btn-outline-primary">Go Somewhere</a>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-6 p-3">
+              <div class="card">
+                  <img src="img/dogs.png" alt="" class="card-img-top">
+                  <div class="card-body">
+                      <h2 class="card-title text-primary">EXPLORE</h2>
+                      <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur, officiis.</p>
+                      <a href="" class="btn btn-lg btn-outline-primary">Go Somewhere</a>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+
+  <section id = "quotes">
+    <div class = "container text-center mt-4">
+      <h3> WHAT OUR HAPPY CAMPERS ARE SAYING </h3>
+      <div class = "row">
+        <div class = "col-md-4 my-2">
+          <i class = "fas fa-quote-left fa-2x text-primary mb-3"> </i>
+          <blockquote class = "blockquote">
+            <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur, officiis.</p>
+            <footer class = "blockquote-footer"> Mark twain </footer>
+          </blockquote>
+        </div>
+        <div class = "col-md-4 my-2">
+          <i class = "fas fa-quote-left fa-2x text-primary mb-3"> </i>
+          <blockquote class = "blockquote">
+            <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur, officiis.</p>
+            <footer class = "blockquote-footer"> Venus Williams </footer>
+          </blockquote>
+        </div>
+        <div class = "col-md-4 my-2">
+          <i class = "fas fa-quote-left fa-2x text-primary mb-3"> </i>
+          <blockquote class = "blockquote">
+            <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur, officiis.</p>
+            <footer class = "blockquote-footer"> Blue Steele </footer>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id = "#">
+    <div class = "container mt-5">
+      <div class = "row">
+        <div class = "col-lg-7 mb-3">
+          <div id="carouselExampleControls" class="carousel slide carousel-fade" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/slider/coffee.png" alt="coffee image for slider" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+              <img src="img/slider/fire.png" class="d-block w-100" alt="fire image for slider">
+            </div>
+            <div class="carousel-item">
+              <img src="img/slider/caribou.png" class="d-block w-100" alt="caribou image for slider">
+            </div>
+            <div class="carousel-item">
+              <img src="img/slider/trees.png" class="d-block w-100" alt="tree image for slider">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </a>
+        </div>
+      </div>
+      <div class = "col-lg-5">
+        <h3> CAMPING MADE COZY </h3>
+        <p class = "lead"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+          labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+          ex ea commodo consequat.</p>
+          <a ahref = ""> See for yourself <i class = "fa fa-arrow-right"></i> </a>
+      </div>
+    </div>
+  </section>
+
+  <section id = "#">
+    <div class = "container text-center mt-5">
+      <h3> WHAT OTHERS ARE SAYING </h3>
+      <h5 class = "text-primary"> #AURORAGROVE</h5>
+      <div class = "row mt-4">
+        <div class = "col-6 col-lg-3 mb-4">
+          <img src = "img/Gallery/social1.png" alt = "" class = "img-fluid">
+        </div>
+        <div class = "col-6 col-lg-3 mb-4">
+          <img src = "img/Gallery/social2.png" alt = "" class = "img-fluid">
+        </div>
+        <div class = "col-6 col-lg-3 mb-4">
+          <img src = "img/Gallery/social3.png" alt = "" class = "img-fluid">
+        </div>
+        <div class = "col-6 col-lg-3 mb-4">
+          <img src = "img/Gallery/social4.png" alt = "" class = "img-fluid">
+        </div>
+        <div class = "col-6 col-lg-3 mb-4">
+          <img src = "img/Gallery/social5.png" alt = "" class = "img-fluid">
+        </div>
+        <div class = "col-6 col-lg-3 mb-4">
+          <img src = "img/Gallery/social6.png" alt = "" class = "img-fluid">
+        </div>
+        <div class = "col-6 col-lg-3 mb-4">
+          <img src = "img/Gallery/social7.png" alt = "" class = "img-fluid">
+        </div>
+        <div class = "col-6 col-lg-3 mb-4">
+          <img src = "img/Gallery/social8.png" alt = "" class = "img-fluid">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id = "finalquote">
+    <div class = "container text-center mt-4">
+      <i class = "fas fa-quote-left fa-2x text-primary mb-3"> </i>
+      <blockquote class = "blockquote">
+        <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur, officiis.
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur, officiis.
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur, officiis.
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur, officiis.
+  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur, officiis.</p>
+        <footer class = "blockquote-footer"> Kitty Cat </footer>
+      </blockquote>
+    </div>
+  </section>
+
+  <section id = "newsletter" class = "bg-dark">
+      <div class = "container text-center text-white py-5">
+        <p class = "lead"> JOIN OUR NEWSLETTER FOR DEALS AND UPDATES AND OFFERS </p>
+        <div class = "row justify-content-center">
+          <div class = " col-10 col-sm-8 col-md-6 col-lg-4">
+            <form action = "" class = "form-inline">
+              <div class = "input-group">
+                <input type = "text" class = "form-control email" placeholder = "Your Email" id = "">
+                <div class = "input-group-append">
+                  <button class = "btn btn-primary"> Join Now </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+  <section>
+
+    <section id = "footer" class = "bg-secondary p-3">
+      <ul class = "nav text-center justify-content-center flex=column flex-sm-row">
+        <li class = "nav-item">
+          <a href = "" class = "nav-link text-white"> FAQ </a>
+        </li>
+        <li class = "nav-item">
+          <a href = "#explore" class = "nav-link text-white"> EXPERIENCE </a>
+        </li>
+        <li class = "nav-item">
+          <a href = "#explore" class = "nav-link text-white"> EXPLORE </a>
+        </li>
+        <li class = "nav-item">
+          <a href = "#newsletter" class = "nav-link text-white"> CONTACT </a>
+        </li><li class = "nav-item">
+          <a href = "" class = "nav-link text-white" data-toggle = "modal" data-target = "#bookingModel"> BOOK NOW </a>
+        </li>
+      </ul>
+    </section>
+
+    <div class="modal" id="bookingModel" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">New Booking</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Please fill out the form below and we'll get back to you as soon as possible</p>
+                    <form>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="adults">Number of Adults</label>
+                            <select class="form-control" id="adults">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="children">Number of Children</label>
+                            <select class="form-control" id="children">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="requests">Additional Requests</label>
+                            <textarea id="requests" rows="3" class="form-control"></textarea>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-primary">Submit Request</button>
+                    <button class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src = "bootstrap/dist/js/bootstrap.min.js"> </script>
+</body>
+</html>

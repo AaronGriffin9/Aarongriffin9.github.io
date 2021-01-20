@@ -1,0 +1,154 @@
+body{
+  background-color: white;
+}
+.cont-width{
+  width: 85%;
+  padding-top: 70px;
+}
+.bg-img{
+  position: absolute;
+}
+.bottom{
+  bottom: 0;
+  width: 98%;
+  height: 100%;
+}
+.blurb h1{
+  font-size: 50px;
+  font-weight: bold;
+  color: hsl(300, 43%, 22%);
+}
+.blurb p{
+  font-size: 22px;
+  opacity: 0.5;
+}
+.rate-cont{
+  background-color: grey;
+  width: 75%;
+  height: 50px;
+  border-radius: 2px;
+  background-color: hsl(300, 24%, 96%);
+}
+.rate-text{
+  display: inline-block;
+  color: hsl(300, 43%, 22%);
+  font-weight: bold;
+}
+.star img{
+  padding: 5px;
+}
+.margin-1{
+  margin-left: 3%;
+}
+.margin-2{
+  margin-left: 7%;
+}
+.card-cont{
+  background-color: hsl(300, 43%, 22%);
+  border-radius: 20px;
+}
+.img-size{
+  width: 40px;
+}
+.title{
+  width: 70%;
+}
+.title h2{
+  font-size: 20px;
+}
+.title h3{
+  font-size: 16px;
+  font-weight: 100;
+  opacity: 0.5;
+}
+.review-p-width{
+  width: 70%;
+}
+.margin-review{
+  margin-top: 55px;
+}
+@media (min-width: 319px) and (max-width: 767px) {
+  .cont-width{
+    width: 100%;
+    padding-top: 0;
+  }
+  .blurb h1{
+    font-size: 40px;
+  }
+  .blurb p{
+    font-size: 18px;
+  }
+  .rate-cont{
+    width: 100%;
+    height: 70px;
+  }
+  span.star{
+    width: 30px;
+    display: flex;
+    justify-content: center;
+  }
+  .rate-text{
+    display: flex;
+    justify-content: center;
+  }
+  .margin-1{
+    margin-left: 0;
+  }
+  .margin-2{
+    margin-left: 0;
+  }
+  .margin-review{
+    margin-top: 35px;
+    margin-bottom: 50px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .cont-width{
+    width: 100%;
+    padding-top: 0;
+  }
+  .rate-cont{
+    width: 90%;
+  }
+  span.star{
+    width: 30px;
+    display: flex;
+    justify-content: center;
+  }
+  .rate-text{
+    display: flex;
+    justify-content: center;
+  }
+  .margin-1{
+    margin-left: 0;
+  }
+  .margin-2{
+    margin-left: 0;
+  }
+  .margin-review{
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1440px) {
+  .rate-cont{
+    width: 90%;
+  }
+  .rate-text{
+    line-height: 45px;
+  }
+  .margin-1{
+    margin-left: 25px;
+  }
+  .margin-2{
+    margin-left: 50px;
+  }
+}
+@-moz-document url-prefix() {
+  .star {
+     height: 30px;
+  }
+  .moz{
+    margin-top: 10px;
+  }
+}
