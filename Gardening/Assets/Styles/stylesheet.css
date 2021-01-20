@@ -1,0 +1,500 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+footer{
+  position: absolute;
+  top: 2050px;
+  display: flex;
+  flex-direction: row;
+  background-color: #cfcfcf;
+  color: black;
+  font-size: 20px;
+  font-weight: 600;
+  width: 100%;
+  height: 100px;
+}
+.navbar{
+  width: 100%;
+  display: flex;
+  background-color: #cfcfcf;
+  opacity: 72%;
+  transition: all 0.7s ease-in-out;
+  color: black;
+}
+.nav-list{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  margin-right: 15em;
+  z-index: 10;
+  pointer-events: all;
+}
+.nav-list li{
+  list-style: none;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 0.5em;
+  color: black;
+}
+.nav-list li a{
+  text-decoration: none;
+  padding: 1.5em;
+  color: black;
+}
+.nav-list li a:hover{
+  text-decoration: underline;
+  color: #666666;
+}
+.logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: left;
+  margin-left: 4em;
+  padding: 18px 1.4em;
+  color: black;
+  letter-spacing: 2px;
+  font-size: 30px;
+  width: 13em;
+}
+.logo span{
+  display: block;
+  text-align: center;
+}
+.hamburger-menu-icon{
+  display: none;
+  cursor: pointer;
+}
+.line{
+  width: 33px;
+  background: black;
+  height: 4px;
+  margin: 5px;
+  border-radius: 2em;
+}
+.cover-img{
+  position: absolute;
+  top: 0;
+  height: 1500px;
+}
+.main-img{
+  width: 100%;
+  height: 850px;
+}
+.row{
+  position: absolute;
+  padding-top: 20px;
+  top: 850px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.col{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 33%;
+}
+.col-img{
+  display: flex;
+  width: 75%;
+  height: 270px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.col-img:hover{
+  cursor: pointer;
+  transition: transform .5s ease-in-out;
+  transform: scale(1.08);
+}
+.col-heading{
+  margin-top: 1em;
+}
+.col-line{
+  position: relative;
+  border-width: thin;
+  text-align: left;
+  color: black;
+  margin-top: 10px;
+  margin-left: 0;
+  width: 11em;
+  opacity: 0.3;
+}
+.col-p{
+  width: 80%;
+  margin-top: 1em;
+}
+.box{
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  top: 1450px;
+  width: 50%;
+  height: 550px;
+  box-shadow: rgba(0,0,0,0.5) 2px 2px 2px 2px;
+}
+.contact-heading{
+  text-align: center;
+  order: 1;
+  width: 100%;
+}
+.icon-cont{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  order: 2;
+  width: 49%;
+  position: absolute;
+  left: 0;
+  padding: 0;
+  margin-top: 2em;
+}
+.text-cont{
+  width: 49%;
+  margin-top: 2em;
+  position: absolute;
+  right: 0;
+  order: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 0;
+}
+.fa.fa-user{
+  font-size: 25px;
+  padding: 2em;
+}
+.fa.fa-mobile{
+  font-size: 25px;
+  padding: 2em;
+}
+.fa.fa-phone{
+  font-size: 25px;
+  padding: 2em;
+}
+.fa.fa-at{
+  font-size: 25px;
+  padding: 2em;
+}
+.click{
+  color: blue;
+}
+.click:hover{
+  text-decoration: underline;
+}
+.contact-text{
+  font-size: 25px;
+  padding: 2em;
+}
+.cont{
+  display: flex;
+  width: 33%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.social{
+  justify-content: flex-start;
+}
+.fa-facebook{
+  font-size: 37px;
+  color: rgb(57,86,156);
+  margin: 0;
+  margin-left: 5em;
+}
+.fa-facebook:hover{
+  color: rgb(57,130,180);
+}
+.fa-instagram{
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 46px;
+  margin: 0;
+  margin-left: 1em;
+}
+.fa-instagram:hover{
+  background: radial-gradient(circle at 30% 107%, #fbed50 0%, #fbed50 5%, #e31502 45%, #ae1e81 60%, #1443d2 90%);
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.fa-twitter{
+  margin: 0;
+  margin-left: 1.5em;
+  padding: 10px 5px 5px 5px;
+  color: white;
+  background-color: RGB(29,161,242);
+  font-size: 45px;
+}
+.fa-twitter:hover{
+  background-color: RGB(10,190,242);
+}
+#contact{
+  display: flex;
+  justify-content: center;
+}
+@media screen and (max-width: 1300px){
+  .nav-list{
+    margin-right: 2em;
+    float: right;
+    width: 100%;
+  }
+  .logo{
+    padding: 11px 1.2em;
+    margin-left: 0em;
+    font-size: 20px;
+    width: 15em;
+  }
+  .main-img{
+    height: 600px;
+  }
+  .row{
+    top: 600px;
+    flex-direction: column;
+    flex-flow: row wrap;
+  }
+  .col{
+    width: 50%;
+    margin-top: 2em;
+  }
+  .left{
+    order: 1;
+    width: 50%;
+  }
+  .center{
+    order: 2;
+    width: 50%;
+  }
+  .right{
+    order: 3;
+    width: 100%;
+  }
+  .box{
+    top: 1700px;
+    width: 70%;
+  }
+  .cont{
+    width: 100%;
+    margin-top: 1em;
+    text-align: center;
+  }
+  .social{
+    width: 100%;
+    justify-content: center;
+  }
+  .fa-facebook{
+    margin-left: 0em;
+  }
+  footer{
+    top: 2300px;
+  }
+}
+@media screen and (max-width: 935px){
+  .box{
+    top: 1800px;
+    width: 70%;
+  }
+  footer{
+    top: 2400px;
+  }
+}
+@media screen and (max-width: 880px){
+  body{
+    user-select: none!important;
+    overflow-x: hidden;
+  }
+  footer{
+    flex-direction: column;
+    height: 250px;
+    margin-top: 2em;
+    top: 2500px;
+  }
+  .navbar{
+    flex-direction: column;
+  }
+  .nav-list{
+    display: none;
+    flex-direction: column;
+    transform: translateX(100%);
+  }
+  .nav-list li{
+    text-align: center;
+    padding: 1.5em;
+  }
+  .logo{
+    padding: 11px 1.2em;
+    font-size: 15px;
+    width: 50%;
+  }
+  .hamburger-menu-icon{
+    display: block;
+    position: absolute;
+    right: 0;
+    margin: 0.8rem;
+  }
+  .navbar-height-responsive{
+    height: 60px;
+  }
+  .navbar-height-normal{
+    height: 20rem;
+  }
+  .transform{
+    display: block;
+    transform: translateX(0%);
+    opacity: 1;
+    animation-name: fadeInOpacity;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: .5s;
+  }
+  .main-img{
+    height: 400px;
+  }
+  .row{
+    top: 400px;
+    flex-direction: column;
+  }
+  .col{
+    width: 100%;
+    margin-top: 2em;
+  }
+  .box{
+    top: 1950px;
+    height: 500px;
+    width: 90%;
+    font-size: 20px;
+  }
+  .contact-text{
+  font-size: 20px;
+  }
+  .fa.fa-user{
+    font-size: 21px;
+    padding: 2em;
+  }
+  .fa.fa-mobile{
+    font-size: 20px;
+    padding: 2em;
+  }
+  .fa.fa-phone{
+    font-size: 21px;
+    padding: 2em;
+  }
+  .fa.fa-at{
+    font-size: 21px;
+    padding: 2em;
+  }
+  .cont{
+    width: 100%;
+    margin-top: 1em;
+    text-align: center;
+  }
+  .social{
+    width: 100%;
+    justify-content: center;
+  }
+  .fa-facebook{
+    margin-left: 0em;
+  }
+  @keyframes fadeInOpacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+}
+@media screen and (max-width: 720px){
+  .box{
+    top: 2050px;
+    height: 450px;
+  }
+  .contact-text{
+    font-size: 15px;
+  }
+  .fa.fa-user{
+    font-size: 15px;
+    padding: 2.2em;
+  }
+  .fa.fa-mobile{
+    font-size: 15px;
+    padding: 2em;
+  }
+  .fa.fa-phone{
+    font-size: 15px;
+    padding: 2em;
+  }
+  .fa.fa-at{
+    font-size: 15px;
+    padding: 2em;
+  }
+  footer{
+    top: 2650px;
+  }
+}
+@media screen and (max-width: 620px){
+  .box{
+    top: 255%;
+    height: 350px;
+  }
+  footer{
+    top: 2550px;
+  }
+}
+@media screen and (max-width: 465px){
+  .box{
+    top: 270%;
+  }
+  .icon-cont{
+    width: 30%;
+  }
+  .text-cont{
+    width: 60%;
+  }
+  footer{
+    top: 2730px;
+  }
+}
+@media screen and (max-width: 385px){
+  .box{
+    top: 280%;
+  }
+  footer{
+    top: 2800px;
+  }
+}
+@media screen and (max-width: 360px){
+  .box{
+    top: 290%;
+  }
+  .icon-cont{
+    width: 25%;
+  }
+  .text-cont{
+    width: 69%;
+  }
+  footer{
+    top: 2900px;
+  }
+}
+@media screen and (max-width: 325px){
+  .box{
+    top: 300%;
+    width: 90%;
+  }
+}
