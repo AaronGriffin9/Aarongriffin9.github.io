@@ -558,3 +558,10 @@ footer{
     top: 3100px;
   }
 }
+@media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0)
+{ @media screen and (max-width: 385px){
+  .box{
+    top: 300%;
+    width: 90%;
+  }
+}}
