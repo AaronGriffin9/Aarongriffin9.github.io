@@ -517,7 +517,6 @@ footer{
   }
 @media screen and (max-width: 500px){
   footer{
-    padding-top: 100px;
     top: 2800px;
     }
   }
@@ -531,7 +530,6 @@ footer{
 }
 @media screen and (max-width: 415px){
   footer{
-    padding-top: 100px;
     top: 3000px;
   }
 }
