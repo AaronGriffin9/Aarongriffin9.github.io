@@ -245,6 +245,9 @@ footer{
   background-color: RGB(10,190,242);
 }
 #contact{
+  position: absolute;
+  width: 100%;
+  top: 1450px;
   display: flex;
   justify-content: center;
 }
@@ -471,7 +474,10 @@ footer{
   }
 }
 @media screen and (max-width: 385px){
-  .box{
+  #contact{
+    top: 290%;
+    }
+    .box{
     top: 280%;
   }
   footer{
@@ -500,6 +506,9 @@ footer{
     top: 300%;
     width: 90%;
   }
+  #contact{
+    top: 300%;
+    }
 }
 @media screen and (max-width: 300px){
   .box{
@@ -507,6 +516,9 @@ footer{
     width: 90%;
     height: 250px;
   }
+  #contact{
+    top: 315%;
+    }
   .contact-text{
     font-size: 10px;
   }
@@ -535,6 +547,9 @@ footer{
     top: 330%;
     height: 250px;
   }
+  #contact{
+    top: 330%;
+    }
   .contact-text{
     font-size: 10px;
   }
@@ -563,6 +578,9 @@ footer{
     top: 340%;
     height: 270px;
   }
+  #contact{
+    top: 340%;
+    }
   footer{
     top: 3300px;
     height: 300px;
@@ -572,11 +590,20 @@ footer{
   .box{
     top: 345%;
   }
+  #contact{
+    top: 360%;
+    }
+    footer{
+      top: 3350px;
+    }
 }
 @media screen and (max-width: 215px){
   .box{
     top: 360%;
   }
+  #contact{
+    top: 360%;
+    }
 }
 @media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0)
 { @media screen and (max-width: 385px){
