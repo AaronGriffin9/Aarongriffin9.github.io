@@ -489,7 +489,7 @@ footer{
 }
 @media only screen and (max-device-width: 880px) and (orientation:landscape) {
   footer{
-    top: 3800px;
+    top: 3900px;
   }
 }
 @media only screen and (max-device-width: 880px) and (-webkit-min-device-pixel-ratio: 2){
