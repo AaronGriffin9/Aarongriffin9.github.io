@@ -513,10 +513,15 @@ footer{
 }
 @media screen and (max-width: 385px){
   #contact{
-    top: 350%;
+    top: 300%;
   }
   footer{
     top: 2850px;
+  }
+}
+@media screen and (-webkit-min-device-pixel-ratio: 1) and (max-width: 385px){
+  #contact{
+    top: 300%;
   }
 }
 @media screen and (max-width: 360px){
