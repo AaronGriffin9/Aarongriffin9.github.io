@@ -575,7 +575,7 @@ footer{
 }
 @media screen and (max-width: 215px){
   .box{
-    top: 350%;
+    top: 360%;
   }
 }
 @media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0)
@@ -584,4 +584,103 @@ footer{
     top: 300%;
     width: 90%;
   }
+  @media screen and (max-width: 360px){
+    .box{
+      top: 290%;
+    }
+    .icon-cont{
+      width: 25%;
+    }
+    .logo{
+      width: 70%;
+    }
+    .text-cont{
+      width: 69%;
+    }
+    footer{
+      top: 2900px;
+    }
+  }
+  @media screen and (max-width: 325px){
+    .box{
+      top: 300%;
+      width: 90%;
+    }
+  }
+  @media screen and (max-width: 300px){
+    .box{
+      top: 315%;
+      width: 90%;
+      height: 250px;
+    }
+    .contact-text{
+      font-size: 10px;
+    }
+    .fa.fa-user{
+      font-size: 10px;
+      padding: 2.2em;
+    }
+    .fa.fa-mobile{
+      font-size: 10px;
+      padding: 2em;
+    }
+    .fa.fa-phone{
+      font-size: 10px;
+      padding: 2em;
+    }
+    .fa.fa-at{
+      font-size: 10px;
+      padding: 2em;
+    }
+    footer{
+      top: 3000px;
+    }
+  }
+  @media screen and (max-width: 270px){
+    .box{
+      top: 330%;
+      height: 250px;
+    }
+    .contact-text{
+      font-size: 10px;
+    }
+    .fa.fa-user{
+      font-size: 10px;
+      padding: 2.2em;
+    }
+    .fa.fa-mobile{
+      font-size: 10px;
+      padding: 2em;
+    }
+    .fa.fa-phone{
+      font-size: 10px;
+      padding: 2em;
+    }
+    .fa.fa-at{
+      font-size: 10px;
+      padding: 2em;
+    }
+    footer{
+      top: 3100px;
+    }
+  }
+  @media screen and (max-width: 240px){
+    .box{
+      top: 340%;
+      height: 270px;
+    }
+    footer{
+      top: 3300px;
+      height: 300px;
+    }
+  }
+  @media screen and (max-width: 225px){
+    .box{
+      top: 345%;
+    }
+  }
+  @media screen and (max-width: 215px){
+    .box{
+      top: 360%;
+    }
 }}
