@@ -497,6 +497,11 @@ footer{
     top: 2650px;
   }
 }
+@media screen and (-webkit-min-device-pixel-ratio: 1) and (max-width: 500px){
+  #contact{
+    top: 2300px;
+  }
+}
 @media screen and (max-width: 465px){
   .icon-cont{
     width: 30%;
@@ -509,6 +514,14 @@ footer{
   }
   footer{
     top: 2730px;
+  }
+}
+@media screen and (max-width: 400px){
+  #contact{
+    top: 300%;
+  }
+  footer{
+    top: 2850px;
   }
 }
 @media screen and (max-width: 385px){
