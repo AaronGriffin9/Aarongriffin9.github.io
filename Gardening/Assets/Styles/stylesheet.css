@@ -487,6 +487,11 @@ footer{
   }
 }
 }
+@media only screen and (min-width: 321px) and (orientation:landscape) {
+  footer{
+    top: 3950px;
+  }
+}
 @media screen and (max-width: 720px){
   .contact-text{
     font-size: 15px;
@@ -518,7 +523,6 @@ footer{
 @media screen and (max-width: 500px){
   footer{
     top: 2800px;
-    clear: both;
     }
   }
 @media screen and (max-width: 465px){
