@@ -558,6 +558,26 @@ footer{
     top: 3100px;
   }
 }
+@media screen and (max-width: 240px){
+  .box{
+    top: 340%;
+    height: 270px;
+  }
+  footer{
+    top: 3300px;
+    height: 300px;
+  }
+}
+@media screen and (max-width: 225px){
+  .box{
+    top: 345%;
+  }
+}
+@media screen and (max-width: 215px){
+  .box{
+    top: 350%;
+  }
+}
 @media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0)
 { @media screen and (max-width: 385px){
   .box{
