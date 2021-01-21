@@ -492,6 +492,11 @@ footer{
     top: 4300px;
   }
 }
+@media only screen and (max-device-width: 880px) and (-webkit-min-device-pixel-ratio: 2){
+  footer{
+    top: 4300px;
+  }
+}
 @media screen and (max-width: 720px){
   .contact-text{
     font-size: 15px;
