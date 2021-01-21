@@ -514,7 +514,6 @@ footer{
 @media screen and (max-width: 620px){
   .box{
     height: 400px;
-    bottom: 100px;
   }
 @media screen and (max-width: 500px){
   footer{
