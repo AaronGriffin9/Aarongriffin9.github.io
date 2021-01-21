@@ -1,9 +1,8 @@
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-html{
+html, body {
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  overflow-x: hidden;
   scroll-behavior: smooth;
 }
 a{
@@ -12,7 +11,7 @@ a{
 }
 footer{
   position: absolute;
-  top: 2100px;
+  top: 2150px;
   display: flex;
   flex-direction: row;
   background-color: #cfcfcf;
@@ -82,19 +81,24 @@ footer{
   margin: 5px;
   border-radius: 2em;
 }
-.cover-img{
+.main-img{
   position: absolute;
   top: 0;
-  height: 1500px;
-}
-.main-img{
   width: 100%;
   height: 850px;
 }
-.row{
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   position: absolute;
-  padding-top: 20px;
-  top: 850px;
+  width: 100vw;
+  top: 870px;
+}
+.row{
+  width: 100%;
+  padding-top: 40px;
+  position: relative;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -124,10 +128,8 @@ footer{
 .col-line{
   position: relative;
   border-width: thin;
-  text-align: left;
   color: black;
   margin-top: 10px;
-  margin-left: 0;
   width: 11em;
   opacity: 0.3;
 }
@@ -136,10 +138,12 @@ footer{
   margin-top: 1em;
 }
 .box{
-  position: absolute;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
   display: flex;
   flex-direction: row;
-  top: 1450px;
   width: 50%;
   height: 550px;
   box-shadow: rgba(0,0,0,0.5) 2px 2px 2px 2px;
@@ -173,6 +177,16 @@ footer{
   align-items: flex-start;
   padding: 0;
 }
+.flex{
+  display: flex;
+
+}
+.position{
+  position: relative;
+}
+#services{
+  width: 100%;
+}
 .fa.fa-user{
   font-size: 25px;
   padding: 2em;
@@ -197,7 +211,7 @@ footer{
 }
 .contact-text{
   font-size: 25px;
-  padding: 2em;
+  padding: 1em;
 }
 .cont{
   display: flex;
@@ -244,13 +258,6 @@ footer{
 .fa-twitter:hover{
   background-color: RGB(10,190,242);
 }
-#contact{
-  position: absolute;
-  width: 100%;
-  top: 30px;
-  display: flex;
-  justify-content: center;
-}
 @media screen and (max-width: 1300px){
   .nav-list{
     margin-right: 2em;
@@ -266,8 +273,15 @@ footer{
   .main-img{
     height: 600px;
   }
+  .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    width: 100vw;
+    top: 650px;
+  }
   .row{
-    top: 600px;
     flex-direction: column;
     flex-flow: row wrap;
   }
@@ -288,8 +302,27 @@ footer{
     width: 100%;
   }
   .box{
-    top: 0;
     width: 70%;
+    height: 500px;
+  }
+  .contact-text{
+    font-size: 21px;
+  }
+  .fa.fa-user{
+    font-size: 22px;
+    padding: 2em;
+  }
+  .fa.fa-mobile{
+    font-size: 22px;
+    padding: 2em;
+  }
+  .fa.fa-phone{
+    font-size: 21px;
+    padding: 2em;
+  }
+  .fa.fa-at{
+    font-size: 21px;
+    padding: 2em;
   }
   .cont{
     width: 100%;
@@ -303,11 +336,13 @@ footer{
   .fa-facebook{
     margin-left: 0em;
   }
-  #contact{
-    top: 1700px;
-  }
   footer{
-    top: 2300px;
+    top: 2400px;
+  }
+}
+@media screen and (max-width: 1000px){
+  footer{
+    top: 2450px;
   }
 }
 @media screen and (max-width: 935px){
@@ -333,12 +368,6 @@ footer{
     font-size: 21px;
     padding: 2em;
   }
-  #contact{
-    top: 1800px;
-  }
-  footer{
-    top: 2400px;
-  }
 }
 @media screen and (max-width: 880px){
   body{
@@ -347,21 +376,27 @@ footer{
   }
   footer{
     flex-direction: column;
-    height: 250px;
+    height: 350px;
     margin-top: 2em;
-    top: 2500px;
+    top: 2600px;
   }
   .navbar{
     flex-direction: column;
   }
   .nav-list{
     display: none;
+    margin-top: -20px;
     flex-direction: column;
     transform: translateX(100%);
   }
   .nav-list li{
     text-align: center;
+    margin-left: -50px;
     padding: 1.5em;
+  }
+  .nav-list li:active{
+    text-decoration: none;
+    font-style: normal;
   }
   .logo{
     padding: 11px 1.2em;
@@ -392,8 +427,15 @@ footer{
   .main-img{
     height: 400px;
   }
-  .row{
+  .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    width: 100vw;
     top: 400px;
+  }
+  .row{
     flex-direction: column;
   }
   .col{
@@ -401,7 +443,7 @@ footer{
     margin-top: 2em;
   }
   .box{
-    height: 500px;
+    height: 450px;
     width: 90%;
     font-size: 20px;
   }
@@ -436,9 +478,6 @@ footer{
   .fa-facebook{
     margin-left: 0em;
   }
-  #contact{
-    top: 2000px;
-  }
   @keyframes fadeInOpacity {
   0% {
     opacity: 0;
@@ -449,9 +488,6 @@ footer{
 }
 }
 @media screen and (max-width: 720px){
-  .box{
-    height: 450px;
-  }
   .contact-text{
     font-size: 15px;
   }
@@ -471,37 +507,19 @@ footer{
     font-size: 15px;
     padding: 2em;
   }
-  #contact{
-    top: 2100px;
-  }
   footer{
-    top: 2650px;
+    top: 2700px;
   }
 }
 @media screen and (max-width: 620px){
   .box{
     height: 400px;
   }
-  #contact{
-    top: 180em;
+  @media screen and (max-width: 500px){
+    footer{
+      top: 2800px;
+    }
   }
-  footer{
-    top: 2550px;
-  }
-}
-@media only screen (max-width: 510px) (-webkit-min-device-pixel-ratio: 2){
-  #contact{
-    top: 160em;
-  }
-  footer{
-    top: 2650px;
-  }
-}
-@media screen and (-webkit-min-device-pixel-ratio: 1) and (max-width: 501px){
-  #contact{
-    top: 160em;
-  }
-}
 @media screen and (max-width: 465px){
   .icon-cont{
     width: 30%;
@@ -509,132 +527,19 @@ footer{
   .text-cont{
     width: 60%;
   }
-  #contact{
-    top: 270%;
-  }
-  footer{
-    top: 2730px;
-  }
 }
-@media screen and (max-width: 400px){
-  #contact{
-    top: 300%;
-  }
-  footer{
-    top: 2850px;
-  }
-}
-@media screen and (max-width: 385px){
-  #contact{
-    top: 300%;
-  }
-  footer{
-    top: 2850px;
-  }
-}
-@media screen and (-webkit-min-device-pixel-ratio: 1) and (max-width: 385px){
-  #contact{
-    top: 300%;
-  }
-}
-@media screen and (max-width: 360px){
-  .icon-cont{
-    width: 25%;
-  }
-  .logo{
-    width: 70%;
-  }
-  .text-cont{
-    width: 69%;
-  }
+@media screen and (max-width: 415px){
   footer{
     top: 2900px;
   }
 }
-@media screen and (max-width: 325px){
-  #contact{
-    top: 300%;
-    }
-    footer{
-      top: 3000px;
-    }
-}
-@media screen and (max-width: 300px){
-  .box{
-    height: 250px;
-  }
-  #contact{
-    top: 315%;
-    }
-  .contact-text{
-    font-size: 10px;
-  }
-  .fa.fa-user{
-    font-size: 10px;
-    padding: 2.2em;
-  }
-  .fa.fa-mobile{
-    font-size: 10px;
-    padding: 2em;
-  }
-  .fa.fa-phone{
-    font-size: 10px;
-    padding: 2em;
-  }
-  .fa.fa-at{
-    font-size: 10px;
-    padding: 2em;
-  }
+@media screen and (max-width: 360px){
   footer{
-    top: 3000px;
+    top: 3050px;
   }
 }
-@media screen and (max-width: 270px){
-  #contact{
-    top: 330%;
-    }
-  .contact-text{
-    font-size: 10px;
-  }
-  .fa.fa-user{
-    font-size: 10px;
-    padding: 2.2em;
-  }
-  .fa.fa-mobile{
-    font-size: 10px;
-    padding: 2em;
-  }
-  .fa.fa-phone{
-    font-size: 10px;
-    padding: 2em;
-  }
-  .fa.fa-at{
-    font-size: 10px;
-    padding: 2em;
-  }
+@media screen and (max-width: 310px){
   footer{
-    top: 3100px;
+    top: 3150px;
   }
-}
-@media screen and (max-width: 240px){
-  #contact{
-    top: 340%;
-    }
-  footer{
-    top: 3300px;
-    height: 300px;
-  }
-}
-@media screen and (max-width: 225px){
-  #contact{
-    top: 360%;
-    }
-    footer{
-      top: 3350px;
-    }
-}
-@media screen and (max-width: 215px){
-  #contact{
-    top: 360%;
-    }
 }
