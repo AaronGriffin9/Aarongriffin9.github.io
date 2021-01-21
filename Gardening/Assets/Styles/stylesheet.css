@@ -535,11 +535,11 @@ footer{
 }
 @media screen and (max-width: 360px){
   footer{
-    top: 3050px;
+    top: 3150px;
   }
 }
 @media screen and (max-width: 310px){
   footer{
-    top: 3150px;
+    top: 3250px;
   }
 }
