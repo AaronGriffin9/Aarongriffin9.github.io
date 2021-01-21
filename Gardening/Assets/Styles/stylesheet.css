@@ -491,7 +491,7 @@ footer{
 }
 @media only screen (max-width: 510px) (-webkit-min-device-pixel-ratio: 2){
   #contact{
-    top: 143em;
+    top: 160em;
   }
   footer{
     top: 2650px;
@@ -499,7 +499,7 @@ footer{
 }
 @media screen and (-webkit-min-device-pixel-ratio: 1) and (max-width: 501px){
   #contact{
-    top: 143em;
+    top: 160em;
   }
 }
 @media screen and (max-width: 465px){
