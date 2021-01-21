@@ -518,6 +518,7 @@ footer{
 @media screen and (max-width: 500px){
   footer{
     top: 2800px;
+    clear: both;
     }
   }
 @media screen and (max-width: 465px){
