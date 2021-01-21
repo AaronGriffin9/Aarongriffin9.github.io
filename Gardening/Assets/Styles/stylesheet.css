@@ -485,6 +485,9 @@ footer{
   .icon-cont{
     width: 25%;
   }
+  .logo{
+    width: 70%;
+  }
   .text-cont{
     width: 69%;
   }
@@ -496,5 +499,62 @@ footer{
   .box{
     top: 300%;
     width: 90%;
+  }
+}
+@media screen and (max-width: 300px){
+  .box{
+    top: 315%;
+    width: 90%;
+    height: 250px;
+  }
+  .contact-text{
+    font-size: 10px;
+  }
+  .fa.fa-user{
+    font-size: 10px;
+    padding: 2.2em;
+  }
+  .fa.fa-mobile{
+    font-size: 10px;
+    padding: 2em;
+  }
+  .fa.fa-phone{
+    font-size: 10px;
+    padding: 2em;
+  }
+  .fa.fa-at{
+    font-size: 10px;
+    padding: 2em;
+  }
+  footer{
+    top: 3000px;
+  }
+}
+@media screen and (max-width: 270px){
+  .box{
+    top: 330%;
+    height: 250px;
+  }
+  .contact-text{
+    font-size: 10px;
+  }
+  .fa.fa-user{
+    font-size: 10px;
+    padding: 2.2em;
+  }
+  .fa.fa-mobile{
+    font-size: 10px;
+    padding: 2em;
+  }
+  .fa.fa-phone{
+    font-size: 10px;
+    padding: 2em;
+  }
+  .fa.fa-at{
+    font-size: 10px;
+    padding: 2em;
+  }
+  footer{
+    top: 3100px;
   }
 }
