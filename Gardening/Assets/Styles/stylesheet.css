@@ -513,7 +513,7 @@ footer{
 }
 @media screen and (max-width: 385px){
   #contact{
-    top: 310%;
+    top: 100%;
   }
   footer{
     top: 2850px;
