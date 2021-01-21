@@ -12,7 +12,7 @@ a{
 }
 footer{
   position: absolute;
-  top: 2050px;
+  top: 2100px;
   display: flex;
   flex-direction: row;
   background-color: #cfcfcf;
@@ -247,7 +247,7 @@ footer{
 #contact{
   position: absolute;
   width: 100%;
-  top: 1450px;
+  top: 30px;
   display: flex;
   justify-content: center;
 }
@@ -303,6 +303,9 @@ footer{
   .fa-facebook{
     margin-left: 0em;
   }
+  #contact{
+    top: 10px;
+  }
   footer{
     top: 2300px;
   }
@@ -311,6 +314,28 @@ footer{
   .box{
     top: 1800px;
     width: 70%;
+  }
+  .contact-text{
+    font-size: 20px;
+  }
+  .fa.fa-user{
+    font-size: 21px;
+    padding: 2em;
+  }
+  .fa.fa-mobile{
+    font-size: 20px;
+    padding: 2em;
+  }
+  .fa.fa-phone{
+    font-size: 21px;
+    padding: 2em;
+  }
+  .fa.fa-at{
+    font-size: 21px;
+    padding: 2em;
+  }
+  #contact{
+    top: 10px;
   }
   footer{
     top: 2400px;
@@ -377,7 +402,7 @@ footer{
     margin-top: 2em;
   }
   .box{
-    top: 1950px;
+    /* top: 1950px; */
     height: 500px;
     width: 90%;
     font-size: 20px;
@@ -413,6 +438,9 @@ footer{
   .fa-facebook{
     margin-left: 0em;
   }
+  #contact{
+    top: 200px;
+  }
   @keyframes fadeInOpacity {
   0% {
     opacity: 0;
@@ -424,7 +452,7 @@ footer{
 }
 @media screen and (max-width: 720px){
   .box{
-    top: 2050px;
+    /* top: 2050px; */
     height: 450px;
   }
   .contact-text{
@@ -446,6 +474,9 @@ footer{
     font-size: 15px;
     padding: 2em;
   }
+  #contact{
+    top: 300px;
+  }
   footer{
     top: 2650px;
   }
@@ -454,6 +485,9 @@ footer{
   .box{
     top: 255%;
     height: 350px;
+  }
+  #contact{
+    top: 257%;
   }
   footer{
     top: 2550px;
@@ -469,6 +503,9 @@ footer{
   .text-cont{
     width: 60%;
   }
+  #contact{
+    top: 270%;
+  }
   footer{
     top: 2730px;
   }
@@ -476,12 +513,12 @@ footer{
 @media screen and (max-width: 385px){
   #contact{
     top: 290%;
-    }
-    .box{
+  }
+  .box{
     top: 280%;
   }
   footer{
-    top: 2800px;
+    top: 2850px;
   }
 }
 @media screen and (max-width: 360px){
