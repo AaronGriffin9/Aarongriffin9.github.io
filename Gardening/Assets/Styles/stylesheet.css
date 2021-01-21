@@ -489,7 +489,7 @@ footer{
 }
 @media only screen and (man-width: 880px) and (orientation:landscape) {
   footer{
-    top: 3950px;
+    top: 4300px;
   }
 }
 @media screen and (max-width: 720px){
