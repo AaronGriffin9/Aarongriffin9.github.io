@@ -690,6 +690,7 @@ footer form{
   .email{
     width: 40%;
     -webkit-appearance: none;
+    -webkit-border-radius:0px;
   }
   .email-label{
     width: 30%;
