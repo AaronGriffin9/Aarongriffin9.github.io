@@ -694,6 +694,7 @@ footer form{
     width: 30%;
   }
   .footer-links{
-    font-size: .5em;
+    font-size: .8em;
+    height: 150px;
   }
 }
