@@ -1,0 +1,322 @@
+.title{
+  padding-top: 2em;
+  font-size: 2em;
+  font-weight: 500;
+  text-align: center;
+}
+div.col-3{
+  text-align: center;
+}
+div.col-3 img{
+  width: 100%;
+}
+div.col-3 p{
+  width: 90%;
+}
+div.col-3 a{
+  color: black;
+  text-decoration: none;
+}
+div.col-3 a:hover{
+  color: #666666;
+  opacity: .8;
+  text-decoration: none;
+}
+.amenities{
+  margin-top: 3em;
+}
+.amenities .col{
+    width: 40%;
+    padding: 2em;
+}
+.amenities h2{
+  text-align: center;
+  font-size: 3.5em;
+  font-weight: 400;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+.amenities h4{
+  text-align: center;
+  font-size: 1.8em;
+  padding-bottom: 1.5em;
+}
+.amenities-para{
+  font-size: 1.1em;
+  padding-top: .5em;
+  font-size: 1.1em;
+  line-height: 1.3em;
+  font-weight: normal;
+  width: 80%;
+  margin: auto;
+  text-align: left;
+}
+.col img{
+  width: 100%;
+  text-align: left;
+  justify-content: left;
+}
+.img-right{
+  text-align: right;
+}
+.see-more{
+  width: 200px;
+  font-size: 1.5em;
+  text-align: center;
+  margin: auto;
+  cursor: pointer;
+}
+.see-more:hover{
+  opacity: 0.7;
+  text-decoration: underline;
+}
+.see-more i{
+  font-size: .8em;
+}
+.see-less{
+  display: none;
+  width: 200px;
+  margin: auto;
+  font-size: 1.5em;
+  text-align: center;
+  cursor: pointer;
+}
+.see-less:hover{
+  opacity: 0.7;
+  text-decoration: underline;
+}
+.see-less i{
+  font-size: .8em;
+}
+.show-extra{
+  display: none;
+}
+.food h2{
+  text-align: center;
+  font-size: 3.5em;
+  font-weight: 400;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+.card{
+  width: 30%;
+  margin: 2em;
+  margin: auto;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 2em;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+.row2{
+  padding-top: 2em;
+}
+.row2 .card{
+  width: 38%;
+  margin: 2em;
+  margin: auto;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 2em;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+.card img{
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.card h4{
+  padding-top: .5em;
+  font-size: 1.8em;
+  font-weight: 500;
+  text-align: center;
+  color: #36b3ab;
+}
+.card p{
+  padding-top: .5em;
+  padding-bottom: 2em;
+  font-size: 1.1em;
+  line-height: 1.3em;
+  font-weight: normal;
+  text-align: center;
+  margin: auto;
+  width: 80%;
+}
+.card button{
+  font-size: 1.5em;
+  padding: .5em;
+  border-radius: .5em;
+  background-color: white;
+  color: #36b3ab;
+  border: 3px solid #36b3ab;
+}
+.card button:hover{
+  color: white;
+  background-color: #36b3ab;
+  cursor: pointer;
+}
+.nature h2{
+  text-align: center;
+  font-size: 3.5em;
+  font-weight: 400;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+.nature-container{
+  width: 100%;
+  margin: auto;
+}
+.nature .col-4{
+  width: 25%;
+  display: flex;
+  justify-content: center;
+}
+.col-4 img{
+  justify-content: center;
+  width: 90%;
+  text-align: center;
+}
+footer{
+  top: 5em;
+}
+@media only screen and (max-width: 1200px) {
+  .amenities h4{
+    font-size: 1.4em;
+    padding-bottom: 1em;
+  }
+  .amenities-para{
+    padding-top: .2em;
+    font-size: 1em;
+    width: 100%;
+  }
+  .card h4{
+    font-size: 1.4em;
+  }
+  .card p{
+    font-size: 1em;
+  }
+  .card button{
+    font-size: 1.2em;
+    padding: .4em;
+  }
+  .card button:hover{
+    color: white;
+    background-color: #36b3ab;
+    cursor: pointer;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .amenities h4{
+    font-size: 1.2em;
+    padding-bottom: .5em;
+  }
+  .amenities-para{
+    padding-top: 0;
+    font-size: .8em;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  div.col-3 img{
+    width: 50%;
+  }
+  .row{
+    flex-direction: column;
+    justify-content: center;
+  }
+  .amenities .col{
+      width: 80%;
+      padding: 2em;
+      text-align: center;
+      margin: auto;
+  }
+  .card{
+    width: 30%;
+    margin: 2em;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 2em;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+  }
+  .row .card{
+    width: 80%;
+  }
+  .row2{
+    padding-top: 2em;
+  }
+  .row2 .card{
+    width: 80%;
+    margin: 2em;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 2em;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+  }
+  .card img{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .card h4{
+    padding-top: .5em;
+    font-size: 1.8em;
+    font-weight: 500;
+    text-align: center;
+    color: #36b3ab;
+  }
+  .card p{
+    padding-top: .5em;
+    padding-bottom: 2em;
+    font-size: 1.1em;
+    line-height: 1.3em;
+    font-weight: normal;
+    text-align: center;
+    margin: auto;
+    width: 80%;
+  }
+  .card button{
+    font-size: 1.5em;
+    padding: .5em;
+    border-radius: .5em;
+    background-color: white;
+    color: #36b3ab;
+    border: 3px solid #36b3ab;
+  }
+  .card button:hover{
+    color: white;
+    background-color: #36b3ab;
+    cursor: pointer;
+  }
+  .nature-container{
+    width: 100%;
+    margin: auto;
+  }
+  .nature-container .row{
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .amenities h4{
+    font-size: 1.2em;
+    padding-bottom: .5em;
+  }
+  .amenities-para{
+    font-size: .7em;
+    width: 100%;
+    text-align: center;
+  }
+  .nature-container .row{
+    flex-direction: column;
+    justify-content: center;
+  }
+  .nature-container .col-4{
+    width: 90%;
+    padding: 1em;
+  }
+}

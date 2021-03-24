@@ -1,0 +1,150 @@
+.explore .row{
+  margin-top: 1em;
+}
+.card{
+  width: 30%;
+  margin: 2em;
+  margin: auto;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 2em;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+.row2{
+  padding-top: 2em;
+}
+.row2 .card{
+  width: 38%;
+  margin: 2em;
+  margin: auto;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 2em;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+.card img{
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.card h4{
+  padding-top: .5em;
+  font-size: 1.8em;
+  font-weight: 500;
+  text-align: center;
+  color: #36b3ab;
+}
+.card p{
+  padding-top: .5em;
+  padding-bottom: 2em;
+  font-size: 1.1em;
+  line-height: 1.3em;
+  font-weight: normal;
+  text-align: center;
+  margin: auto;
+  width: 80%;
+}
+.card button{
+  font-size: 1.5em;
+  padding: .5em;
+  border-radius: .5em;
+  background-color: white;
+  color: #36b3ab;
+  border: 3px solid #36b3ab;
+}
+.card button:hover{
+  color: white;
+  background-color: #36b3ab;
+  cursor: pointer;
+}
+footer{
+  top: 15em;
+}
+@media only screen and (max-width: 1200px) {
+  .card h4{
+    font-size: 1.4em;
+  }
+  .card p{
+    font-size: 1em;
+  }
+  .card button{
+    font-size: 1.2em;
+    padding: .4em;
+  }
+  .card button:hover{
+    color: white;
+    background-color: #36b3ab;
+    cursor: pointer;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .row{
+    flex-direction: column;
+    justify-content: center;
+  }
+  .card{
+    width: 30%;
+    margin: 2em;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 2em;
+    margin-bottom: 2em;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+  }
+  .row .card{
+    width: 80%;
+  }
+  .row2{
+    padding-top: 2em;
+  }
+  .row2 .card{
+    width: 80%;
+    margin: 2em;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 2em;
+    margin-bottom: 2em;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+  }
+  .card img{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .card h4{
+    padding-top: .5em;
+    font-size: 1.8em;
+    font-weight: 500;
+    text-align: center;
+    color: #36b3ab;
+  }
+  .card p{
+    padding-top: .5em;
+    padding-bottom: 2em;
+    font-size: 1.1em;
+    line-height: 1.3em;
+    font-weight: normal;
+    text-align: center;
+    margin: auto;
+    width: 80%;
+  }
+  .card button{
+    font-size: 1.5em;
+    padding: .5em;
+    border-radius: .5em;
+    background-color: white;
+    color: #36b3ab;
+    border: 3px solid #36b3ab;
+  }
+  .card button:hover{
+    color: white;
+    background-color: #36b3ab;
+    cursor: pointer;
+  }
+}

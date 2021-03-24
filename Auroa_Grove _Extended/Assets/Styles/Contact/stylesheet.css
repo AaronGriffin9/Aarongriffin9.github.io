@@ -1,0 +1,165 @@
+.contact h2{
+  text-align: center;
+  font-size: 3.5em;
+  font-weight: 400;
+  padding-top: 1em;
+  padding-bottom: .5em;
+}
+.title-underline{
+  width: 80%;
+  margin: auto;
+  opacity: .4;
+}
+.row{
+  margin-top: 2em;
+  flex-direction: row;
+}
+.col-text{
+  width: 30%;
+}
+.text-cont{
+  margin: auto;
+  width: 60%;
+  font-family: sans-serif;
+}
+.col-text p{
+  padding: .7em;
+  font-size: 1.1em;
+  margin: auto;
+}
+.seperator{
+  width: 40%;
+  opacity: .4;
+}
+.col-form{
+  width: 70%;
+}
+.left{
+  width: 40%;
+  margin: auto;
+  display: inline-block;
+}
+.right{
+  width: 40%;
+  margin-left: 5em;
+  display: inline-block;
+}
+.block{
+  display: block;
+  margin-top: .5em;
+  margin-bottom: .5em;
+}
+.col-form input{
+  padding: .6em;
+  width: 90%;
+}
+.col-form input:focus{
+  border: 2px solid #36b3ab;
+  outline: none;
+}
+.col-form label{
+  font-size: 1.1em;
+  font-weight: bold;
+  color: #36b3ab;
+}
+.col-form textarea{
+  width: 90%;
+  height: 160px;
+}
+.col-form textarea:focus{
+  border: 2px solid #36b3ab;
+  outline: none;
+}
+.col-form .text{
+  position: relative;
+}
+.form-btn{
+  display: block;
+  font-size: 1.5em;
+  padding-top: .5em;
+  padding-bottom: .5em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  border-radius: .5em;
+  background-color: white;
+  color: #36b3ab;
+  border: 3px solid #36b3ab;
+}
+.form-btn:hover{
+  color: white;
+  background-color: #36b3ab;
+  cursor: pointer;
+}
+.map{
+  text-align: center;
+  margin: auto;
+  width: 75%;
+}
+footer{
+  top: 10em;
+}
+@media only screen and (max-width: 1200px) {
+  .map{
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .row{
+    flex-direction: column;
+  }
+  .col-text{
+    margin: auto;
+    text-align: center;
+    width: 100%;
+  }
+  .seperator{
+    width: 100%;
+  }
+  .col-form{
+    width: 100%;
+    margin: auto;
+  }
+  .right{
+    margin-left: 2em;
+    width: 50%;
+  }
+  .form-btn{
+    margin: auto;
+    margin-top: 1em;
+  }
+  footer{
+    top: 7em;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .left{
+    width: 75%;
+    margin: auto;
+    display: block;
+  }
+  .right{
+    width: 75%;
+    margin: auto;
+    display: block;
+  }
+  .right textarea{
+    width: 95%;
+  }
+  .map{
+    width: 100%;
+  }
+  footer{
+    top: 5em;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .left{
+    width: 85%;
+  }
+  .right{
+    width: 85%;
+  }
+  .right textarea{
+    width: 97%;
+  }
+}

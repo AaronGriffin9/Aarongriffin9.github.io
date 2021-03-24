@@ -1,0 +1,41 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.row{
+  width: 100%;
+  flex-direction: row;
+  display: flex;
+  margin-top: 1em;
+  justify-content: center;
+}
+.col{
+  width: 33%;
+  display: flex;
+  justify-content: center;
+}
+.img{
+  justify-content: center;
+  width: 90%;
+  text-align: center;
+}
+.img:hover{
+  cursor: pointer;
+  transition: transform .5s ease-in-out;
+  transform: scale(1.08);
+}
+@media screen and (max-width: 1300px){
+  .row{
+    flex-direction: column;
+    flex-flow: row wrap;
+  }
+  .col{
+    width: 50%;
+    margin-top: 2em;
+  }
+}
+@media screen and (max-width: 880px){
+  .col{
+    width: 100%;
+  }
+}

@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="A template based off the Aurora grove Bootstrap project">
+    <meta name="keywords" content="template, Aurora Grove">
+    <meta name="author" content="Aaron Griffin">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aurora Template|Explore</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Assets/Styles/Global/stylesheet.css">
+    <link rel="stylesheet" href="Assets/Styles/Explore/stylesheet.css">
+  </head>
+  <body>
+    <header id="showcase">
+      <nav class="navbar">
+        <div class="nav-left">
+          <div class="link brand">
+            <a href="index.html">Aurora Grove</a>
+          </div>
+          <div class="toggle" id="toggle1">
+            <i class="fas fa-bars"></i>
+          </div>
+        </div>
+        <div class="nav-right" id="nav">
+          <div class="link">
+            <a href="index.html">Home</a>
+          </div>
+          <div class="link">
+            <a href="about.html">About</a>
+          </div>
+          <div class="link">
+            <a href="#explore">Explore</a>
+          </div>
+          <div class="link">
+            <a href="contact.html">Contact</a>
+          </div>
+          <div class="link" id="book">
+            <a class="book">Book</a>
+          </div>
+        </div>
+      </nav>
+      <section>
+        <div id="overlay"> </div>
+        <div class="showcase-cont" id="header">
+          <h2 class="showcase-heading"> MODERN CAMPING </h2>
+          <h1 class="showcase-heading"> Aurora Grove </h1>
+          <p class="showcase-para">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+            ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+            nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+            anim id est laborum. </p>
+            <button class="showcase-button" id="modal-btn"> BOOK NOW </button>
+        </div>
+        <div class="modal" id="modal">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-heading">New Booking</h4>
+              <button class="close" id="close">&times;</button>
+            </div>
+            <div class="form-cont">
+              <p>Fill out the new booking form and we will get back to you as soon as possible</p>
+              <form onsubmit="return false;">
+                <label class="modal-label" for="email">Email</label>
+                <input class="modal-email" type="text" name="email" placeholder="placeholder@email.com">
+                <label class="modal-label" for="adults">Number Of Adults</label>
+                <select name="adults">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                </select>
+                <label class="modal-label" for="adults">Number Of Children</label>
+                <select name="children">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                </select>
+                <label class="modal-label" for="requests">Additional Requests</label>
+                <textarea name="requests">
+                </textarea>
+                <input type="submit" value="Submit" class="submit"> <!-- return false is set on form so this will not submit the form -->
+                <button class="close-btn" id="close-btn">close</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <section class="explore">
+      <div class="row">
+        <div class="card">
+          <img src="Assets/Images/winter.png">
+          <h4>EXPERIENCE</h4>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur, officiis.</p>
+          <button>Go Somewhere</button>
+        </div>
+        <div class="card">
+          <img src="Assets/Images/winter.png">
+          <h4>EXPERIENCE</h4>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur, officiis.</p>
+          <button>Go Somewhere</button>
+        </div>
+        <div class="card">
+          <img src="Assets/Images/winter.png">
+          <h4>EXPERIENCE</h4>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur, officiis.</p>
+          <button>Go Somewhere</button>
+        </div>
+      </div>
+      <div class="row row2">
+        <div class="card">
+          <img src="Assets/Images/winter.png">
+          <h4>EXPERIENCE</h4>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur, officiis.</p>
+          <button>Go Somewhere</button>
+        </div>
+        <div class="card">
+          <img src="Assets/Images/winter.png">
+          <h4>EXPERIENCE</h4>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur, officiis.</p>
+          <button>Go Somewhere</button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="card">
+          <img src="Assets/Images/winter.png">
+          <h4>EXPERIENCE</h4>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur, officiis.</p>
+          <button>Go Somewhere</button>
+        </div>
+        <div class="card">
+          <img src="Assets/Images/winter.png">
+          <h4>EXPERIENCE</h4>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur, officiis.</p>
+          <button>Go Somewhere</button>
+        </div>
+        <div class="card">
+          <img src="Assets/Images/winter.png">
+          <h4>EXPERIENCE</h4>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur, officiis.</p>
+          <button>Go Somewhere</button>
+        </div>
+      </div>
+    </section>
+
+    <footer id="contact">
+      <div class="news-letter">
+        <h4>JOIN OUR NEWSLETTER FOR DEALS AND UPDATES</h4>
+        <form>
+          <input class="email" type="text" name="email" placeholder="Your Email">
+          <label class="email-label" for="email">Join Now</label>
+        </form>
+      </div>
+      <div class="footer-links">
+        <div class="link">
+          FAQ
+        </div>
+        <div class="link">
+          EXPERIENCE
+        </div>
+        <div class="link">
+          EXPLORE
+        </div>
+        <div class="link">
+          CONTACT
+        </div>
+        <div class="link">
+          BOOK NOW
+        </div>
+      </div>
+    </footer>
+
+    <script type="text/javascript" async src="Assets/Scripts/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,492 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+html{
+  scroll-behavior: smooth;
+}
+body{
+  font-family: "Raleway", sans-serif;
+}
+nav{
+  z-index: 3;
+}
+.navbar{
+  display: flex;
+  padding: 16px;
+  color: white;
+  position: relative;
+  z-index: 3;
+}
+.nav-left{
+  display: flex;
+  font-weight: 100;
+  font-size: 2.5em;
+}
+.nav-right{
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  font-weight: 300;
+  font-size: 1.75em;
+}
+.link{
+  padding-right: 1.2em;
+}
+.link a{
+  color: white;
+  text-decoration: none;
+  background-color: transparent;
+}
+.link a:hover{
+  cursor: pointer;
+  border-bottom: 1px solid;
+  padding-bottom: .5em;
+}
+.brand a{
+  color: white;
+  text-decoration: none;
+}
+.toggle{
+  display: none;
+}
+#showcase {
+  background: url("../../Images/main.jpg") bottom center/cover no-repeat;
+  min-height: 750px;
+  position: relative;
+  z-index: 1;
+}
+#showcase #header{
+    z-index: 2;
+}
+#showcase #overlay{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.4);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+.showcase-cont{
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  padding-top: 7em;
+  color: white;
+  z-index: 2;
+}
+h1.showcase-heading{
+  font-size: 5em;
+  font-weight: 400;
+  line-height: 1.2;
+}
+.showcase-heading{
+  text-align: center;
+  font-size: 3.5em;
+  font-weight: 300;
+  line-height: 1.2;
+}
+.showcase-para{
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  margin-top: 1.7em;
+  font-weight: 300;
+  line-height: 1.5em;
+  font-size: 1.3em;
+}
+.showcase-button{
+  width: 20%;
+  margin: auto;
+  margin-top: 1.7em;
+  border-radius: 2em;
+  font-size: 1.5em;
+  color: white;
+  background-color: #36b3ab;
+  border-color: #36b3ab;
+  padding: .5em;
+}
+.showcase-button:hover{
+  background-color:#2f9d96;
+  border-color: #2f9d96;
+  cursor: pointer;
+}
+.modal{
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 4;
+  width: 50%;
+  overflow: auto; /* Enable scroll if needed */
+  background-color: white;
+}
+.modal-content{
+    width: 100%;
+}
+.modal-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid grey;
+}
+.modal-heading{
+  font-size: 1.8em;
+  font-weight: 500;
+  padding: .8em;
+}
+.form-cont{
+  width: 90%;
+  margin: auto;
+  padding: 5px;
+  padding-top: 1em;
+  display: flex;
+  flex-direction: column;
+}
+.form-cont p{
+  font-size: 1.4em;
+  margin: 5px;
+}
+.modal form{
+  padding-top: 1em;
+  margin: 1em 1em 1em 0;
+}
+.modal-label{
+  font-size: 1.4em;
+}
+.modal-email{
+  width: 100%;
+  border: none;
+  padding: 1em 0 1em 0;
+  border-bottom: 1px solid black;
+  margin: 1em 1em 1em 0;
+}
+.modal-email::placeholder{
+  font-size: 1.4em;
+}
+.modal form select{
+  width: 100%;
+  margin: 1em 1em 1em 0;
+  padding: 1em 0 1em 0;
+  font-size: 1em;
+}
+.modal form textarea{
+  width: 100%;
+  height: 8em;
+  font-size: 2em;
+}
+.modal .submit{
+  width: 20%;
+  margin: auto;
+  margin-top: 1.7em;
+  border-radius: 5px;
+  font-size: 1.5em;
+  color: white;
+  background-color: #36b3ab;
+  border-color: #36b3ab;
+  padding: .5em;
+}
+.modal .submit:hover{
+  background-color:#2f9d96;
+  border-color: #2f9d96;
+  cursor: pointer;
+}
+.modal .close-btn{
+  width: 15%;
+  margin: auto;
+  margin-top: 1.7em;
+  border-radius: 5px;
+  font-size: 1.5em;
+  color: white;
+  background-color: black;
+  border-color: black;
+  padding: .5em;
+}
+.modal .close-btn:hover{
+  background-color: grey;
+  border-color: grey;
+  cursor: pointer;
+}
+.close {
+  color: #aaa;
+  font-size: 2.5em;
+  font-weight: bold;
+  border: none;
+  background-color: white;
+  margin-right: 1em;
+}
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.container{
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+.row{
+  width: 90%;
+  margin: auto;
+  display: flex;
+}
+footer{
+  position: relative;
+  top: 25em;
+  width: 100%;
+  background-color: #1f1f1f;
+}
+.news-letter{
+  width: 100%;
+  background-color: #6c757d;
+  height: 150px;
+}
+.news-letter h4{
+  text-align: center;
+  color: white;
+  font-size: 1.2em;
+  font-weight: 400;
+  padding-top: 1em;
+}
+footer form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2em;
+}
+.email{
+  padding: .8em 0 .8em 0;
+  width: 10%;
+  margin: 0;
+  border: none;
+}
+.email::placeholder{
+  text-align: left;
+}
+.email-label{
+  background-color: #36b3ab;
+  border: none;
+  color: white;
+  width: 8%;
+  height: 2.3em;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-links{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  color: white;
+  font-weight: 300;
+  font-size: 1.5em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+@media only screen and (max-width: 1200px) {
+  .nav-left{
+    font-size: 2em;
+  }
+  .nav-right{
+    font-size: 1.25em;
+  }
+  .showcase-cont{
+    padding-top: 5em;
+  }
+  h1.showcase-heading{
+    font-size: 4em;
+  }
+  .showcase-heading{
+    font-size: 2.5em;
+  }
+  .showcase-para{
+    width: 70%;
+    font-size: 1.2em;
+  }
+  .showcase-button{
+    width: 25%;
+    margin-top: 2.5em;
+    padding: .6em;
+  }
+  .modal{
+    width: 75%;
+  }
+  .modal .close-btn{
+    width: 20%;
+  }
+  .email{
+    width: 20%;
+  }
+  .email-label{
+    width: 12%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .navbar{
+    display: block;
+  }
+  .toggle{
+    display: block;
+    align-self: flex-end;
+    display: initial;
+    position: absolute;
+    cursor: pointer;
+  }
+  .nav-left{
+    flex-direction: column;
+  }
+  .nav-right{
+    display: none;
+    flex-direction: column;
+    text-align: center;
+  }
+  .link.brand{
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .link{
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
+  .display{
+    display: block;
+  }
+  #showcase{
+    min-height: 500px;
+  }
+  .showcase-para{
+    display: none;
+  }
+  .showcase-button{
+    width: 35%;
+  }
+  .modal{
+    width: 75%;
+  }
+  .modal-heading{
+    font-size: 1.5em;
+  }
+  .form-cont p{
+    font-size: 1.2em;
+    margin: 5px;
+  }
+  .modal-label{
+    font-size: 1.4em;
+  }
+  .modal-email::placeholder{
+    font-size: 1.2em;
+  }
+  .modal form select{
+    font-size: .8em;
+  }
+  .modal form textarea{
+    font-size: 1.6em;
+  }
+  .modal .submit{
+    width: 25%;
+    font-size: 1.2em;
+  }
+  .modal .close-btn{
+    width: 25%;
+    font-size: 1.2em;
+  }
+  .container{
+    max-width: 768px;
+  }
+  .container{
+    flex-direction: column;
+    padding-top: 1.2em;
+  }
+  footer{
+    top: 30em;
+  }
+  .email{
+    width: 30%;
+  }
+  .email-label{
+    width: 20%;
+  }
+  .footer-links{
+    font-size: 1em;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .nav-right{
+    text-align: center;
+    margin-left: 2em;
+  }
+  .showcase-cont{
+    padding-bottom: 5em;
+    padding-top: 1em;
+  }
+  #showcase{
+    min-height: 450px;
+  }
+  .showcase-cont{
+    padding-bottom: 5em;
+    padding-top: 5em;
+  }
+  h1.showcase-heading{
+    font-size: 2.8em;
+  }
+  .showcase-heading{
+    font-size: 1.8em;
+  }
+  .showcase-button{
+    width: 50%;
+    font-size: 1em;
+  }
+  .modal{
+    width: 90%;
+  }
+  .modal-heading{
+    font-size: 1.2em;
+  }
+  .form-cont p{
+    font-size: 1em;
+    margin: 5px;
+  }
+  .modal-label{
+    font-size: 1.2em;
+  }
+  .modal-email::placeholder{
+    font-size: 1em;
+  }
+  .modal form select{
+    font-size: .6em;
+  }
+  .modal form textarea{
+    font-size: 1.4em;
+  }
+  .modal .submit{
+    width: 28%;
+    font-size: 1em;
+  }
+  .modal .close-btn{
+    width: 28%;
+    font-size: 1em;
+  }
+  footer{
+    top: 18em;
+  }
+  .email{
+    width: 40%;
+    -webkit-appearance: none;
+    -webkit-border-radius:0px;
+  }
+  .email-label{
+    width: 30%;
+  }
+  .footer-links{
+    font-size: .7em;
+    height: 50px;
+  }
+}
