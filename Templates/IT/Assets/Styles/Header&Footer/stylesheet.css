@@ -1,0 +1,142 @@
+
+footer{
+  background-color: #1A2B6D;
+  position: relative;
+  top: -150px;
+  z-index: 2;
+}
+footer form{
+  color: white;
+}
+footer form input.form-control{
+  background-color: #1A2B6D;
+  border-bottom: 2px solid white;
+}
+footer form input.form-control:hover{
+  background-color: #1A2B6D;
+  border: 1px solid white;
+}
+footer form input.form-control:focus{
+  background-color: #1A2B6D;
+  color: white;
+  border: 0;
+  box-shadow: none;
+  border-bottom: 2px solid white;
+}
+textarea.form-control{
+  background-color: #1A2B6D;
+  border-bottom: 2px solid white;
+}
+textarea.form-control:hover{
+  background-color: #1A2B6D;
+  border: 1px solid white;
+}
+textarea.form-control:focus{
+  background-color: #1A2B6D;
+  color: white;
+  border: 0;
+  box-shadow: none;
+  border-bottom: 2px solid white;
+}
+a.comp:hover{
+  color: #cccccc;
+  text-decoration: none;
+}
+#border{
+  border: 5px solid black;
+}
+#border:hover{
+  border: 5px solid red;
+  transition-duration:.5s;
+}
+.form-control{
+  border: 0;
+}
+.input::placeholder{
+  color: white;
+  opacity: 1;
+  font-weight: bold;
+}
+.btn-light{
+  background-color: transparent;
+  border: 0;
+  color: white;
+
+}
+.btn-light:hover{
+  background-color: red;
+  color: white;
+}
+.comp{
+  color: white;
+}
+.navbar-brand.p-2{
+  color: #1A2B6D;
+  font-size: 18px;
+  font-family: Helvetica;
+  font-weight: bold;
+}
+.navbar-brand.p-2:hover{
+  color: red;
+  transition-duration:.5s;
+}
+.nav-item a.nav-link.mx-auto{
+  color: #1A2B6D;
+  font-size: 18px;
+  font-family: Helvetica;
+  font-weight: bold;
+}
+.nav-item a.nav-link.mx-auto:hover{
+  color: red;
+  transition-duration:.5s;
+}
+a.fa{
+  text-decoration: none;
+  vertical-align: middle
+}
+.fa-facebook{
+  font-size: 27px;
+  background-color: rgb(57,86,156);
+  color: white;
+  padding: 4px 3px 0px 11px;
+}
+.fa-facebook:hover{
+  background-color: rgb(57,86,156);
+  color: white;
+}
+.fa-instagram{
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 36px;
+}
+.fa-twitter{
+  padding: 5px 5px 5px 5px;
+  color: white;
+  background-color: RGB(29,161,242);
+  font-size: 20px;
+}
+.fa-twitter:hover{
+  color: white;
+  background-color: RGB(29,161,242);
+}
+@media (min-width: 319px) and (max-width: 768px){
+  .width{
+      width: 100%;
+  }
+  footer{
+    top: 0;
+  }
+}
+@media (min-width: 767px) and (max-width: 1024px){
+footer{
+  top: 0;
+  }
+}
+@media (min-width: 1400px) and (max-width: 2000px){
+  .width{
+    width: 49%;
+    display: inline-block;
+  }
+}
